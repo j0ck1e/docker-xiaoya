@@ -2,7 +2,7 @@ FROM alpine as base
 
 RUN apk add dumb-init
 
-FROM xiaoyaliu/alist:hostmode
+FROM xiaoyaliu/alist:latest
 
 LABEL MAINTAINER me@monlor.com
 
